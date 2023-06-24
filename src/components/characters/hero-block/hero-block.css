@@ -1,0 +1,122 @@
+.hero-block__wrapper{
+
+}
+h3{
+    margin: 0;
+    font-size: 22px;
+}
+p{
+    margin: 0;
+    font-size: 14px;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+}
+.wrapper{
+    padding: 0px 166px;
+}
+.block{
+    max-width: 1100px;
+}
+.hero-block{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 1100px;
+    left: 544px;
+    margin: 0 auto;
+    margin-bottom: 53px;
+}
+.hero-block__character{
+    width: 50%;
+    box-shadow: 5px 5px 20px 0px #00000040;
+    display: flex;
+    justify-content: center;
+    padding: 35px 40px;
+}
+.hero-block__img img{
+    height: 180px;
+    margin-right: 30px;
+}
+.hero-block__info h3{
+    font-family: Roboto Condensed;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 6px;
+}
+.hero-block__info p{
+    margin-bottom: 13px;
+}
+.hero-block__buttons{
+
+}
+.hero-block__random{
+    width: 50%;
+    background-color: #232222;
+    box-shadow: 5px 5px 20px 0px #00000040;
+    padding: 35px 40px;
+    position: relative;
+}
+.hero-block__random h3{
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    
+    color: #fff;
+}
+.hero-block__random h3:first-child {
+    margin-bottom: 33px;
+}
+
+.hero-block__random img{
+    position: absolute;
+}
+.hero-block__random button{
+    margin-top: 13px;
+    background-color: #9F0013;
+}
+.shield{
+    bottom: 14px;
+    right: 67px;
+}
+.mjolnir{
+    bottom: 14px;
+    right: -35px;
+}
+
+.hero-block__button{
+    height: 38px;
+    width: 101px;
+    color: #fff;
+    border: none;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    transition: all 0.2s;
+    clip-path: polygon(13% 0, 100% 0, 100% 83%, 88% 100%, 0 100%, 0 17%);
+}
+.hero-block__button:hover{
+    background-color: #57000a;
+}
+.HOMEPAGE{
+    background-color: #9F0013;
+    margin-right: 30px;
+}
+.HOMEPAGE:hover{
+    background-color: #57000a;
+}
+.WIKI{
+    background-color: #5C5C5C; 
+}
+.WIKI:hover{
+    background-color: #343434; 
+}

@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.block{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.header-wrapper{
+
+}
+.header__logo{
+    /* font-size: 28px; */
+}
+.header__menu{
+    font-weight: 24px;
+}

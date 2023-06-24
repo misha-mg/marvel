@@ -1,0 +1,42 @@
+.footer__button{
+    height: 38px;
+    width: 170px;
+    color: #fff;
+    border: none;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    background-color: #9F0013;
+    margin: 45px;
+    transition: all 0.2s;
+    clip-path: polygon(13% 0, 100% 0, 100% 83%, 88% 100%, 0 100%, 0 17%);
+}
+.footer__button:hover{
+    background-color: #71000d;
+}
+.footer{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.footer__button_wrapper{
+    width: 650px;
+    display: flex;
+    justify-content: center;
+}
+.footer__fake{
+    width: 425px;
+    height: 30px;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.footer__bg{
+    position: absolute;
+    right: -180px;
+    bottom: 0;
+}
